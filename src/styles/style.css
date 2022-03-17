@@ -94,6 +94,13 @@ h3 {
   background-color: var(--dark-orange);
 }
 
+.title {
+  margin-bottom: 30px;
+
+  font-weight: 400;
+  font-family: Neucha, Arial, sans-serif;
+}
+
 /* Header */
 .header {
   position: relative;
@@ -121,12 +128,10 @@ h3 {
 }
 
 .header-title {
+  position: relative;
   z-index: 10;
 
   margin-bottom: 185px;
-
-  font-weight: 400;
-  font-family: Neucha, Arial, sans-serif;
 }
 
 .text-orange {
@@ -137,12 +142,14 @@ h3 {
   position: absolute;
   top: 55px;
   right: -103px;
-  z-index: 5;
 
   height: 525px;
 }
 
 .text-wrapper {
+  position: relative;
+  z-index: 10;
+
   display: flex;
 
   column-gap: 30px;
@@ -152,6 +159,19 @@ h3 {
   max-width: 540px;
 }
 
-.header-link {
-  margin-top: 40px;
+.header-text:last-of-type {
+  margin-bottom: 40px;
+}
+
+/* Video section */
+.video {
+  margin-bottom: -100px;
+}
+
+.video-wrapper {
+  text-align: center;
+}
+
+.video-player {
+  filter: drop-shadow(0 16px 32px rgb(0 0 0 / 15%));
 }
