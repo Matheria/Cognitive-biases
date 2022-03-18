@@ -319,3 +319,34 @@ h3 {
   width: 50%;
   margin-top: 0;
 }
+
+/* Section-dark */
+.section-dark {
+  background-color: var(--brown);
+}
+
+.section-dark-content-wrapper {
+  flex-direction: row-reverse;
+}
+
+.section-dark-text-top {
+  color: var(--opacity-white);
+}
+
+.section-dark-title {
+  color: var(--white);
+}
+
+.section-dark-desc {
+  color: var(--white);
+}
+
+.section-dark-subtitle {
+  color: var(--brown);
+
+  background-color: var(--white);
+}
+
+.section-dark-text {
+  color: var(--white);
+}
