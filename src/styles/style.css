@@ -110,7 +110,7 @@ h3 {
   background-color: var(--light);
 }
 
-.header::before {
+.bg::before {
   position: absolute;
   top: 0;
   left: 0;
@@ -251,4 +251,71 @@ h3 {
 .navigation-item:hover .item-title,
 .navigation-item:hover .item-text {
   color: var(--white);
+}
+
+/* Section */
+.section {
+  position: relative;
+
+  background-color: var(--light);
+}
+
+.section-img {
+  width: 578px;
+  height: 434px;
+
+  vertical-align: middle;
+
+  filter: drop-shadow(0 16px 32px rgb(0 0 0 / 15%));
+}
+
+.section-text-top {
+  color: var(--opacity-dark);
+  font-size: 24px;
+  font-family: Neucha, Arial, sans-serif;
+  line-height: 29px;
+}
+
+.section-desc {
+  font-size: 34px;
+  font-family: Neucha, Arial, sans-serif;
+  line-height: 41px;
+}
+
+.section-subtitle {
+  position: relative;
+
+  z-index: 10;
+
+  margin-bottom: 20px;
+  padding: 5px 10px;
+
+  color: var(--white);
+  font-weight: 700;
+  font-size: 14px;
+  font-family: "Open Sans", Arial, sans-serif;
+  line-height: 17px;
+
+  text-transform: uppercase;
+
+  background-color: var(--brown);
+}
+
+.section-content-wrapper {
+  position: relative;
+
+  z-index: 10;
+
+  display: flex;
+
+  column-gap: 30px;
+}
+
+.section-content-wrapper:first-child {
+  margin-bottom: 100px;
+}
+
+.section-text {
+  width: 50%;
+  margin-top: 0;
 }
